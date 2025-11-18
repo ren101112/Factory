@@ -38,13 +38,25 @@ public class Factory {
         House h1=new House();//this is a variable of type house-- it is MORE COMPLEX than any other variable, it is an OBJECT
         //it is of type house and A VARIABLE FROM THE CLASS WE MADE
         h1.owner="Mr.Kim";
-        System.out.println(h1.owner);
+        System.out.println("the owner is"+h1.owner);
         h1.address="12 main street";
-        System.out.println(h1.address);
+        System.out.println("the adress is"+h1.address);
         h1.isOccupied=true;
         h1.walls=10;
         h1.size=200.13;
-        System.out.println(h1.size);
+        System.out.println("house size is"+h1.size);
+        House h2=new House();
+        h2.printInfo();//todo make anouther house object called myhouse
+
+        House Myhouse=new House();
+        Myhouse.printInfo();
+        House CustomHouse=new House(200.24551,12,"Ren");
+        CustomHouse.printInfo();
+
+
+//todo is to add more parameteres for the constructor method
+
+
 
     }
     public void FactoryInfo(){
