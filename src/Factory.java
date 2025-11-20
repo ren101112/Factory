@@ -53,6 +53,16 @@ public class Factory {
         House CustomHouse=new House(200.24551,12,"Ren", "70 randolph ave",false);
         CustomHouse.printInfo();
 
+        for (int x=0;x<10; x++) {
+
+            Store f1 = new Store();
+            f1.printInfo();
+
+            Store CustomStore = new Store(6145, false, "gabe");
+            CustomStore.printInfo();
+        }
+
+
 
 
 
