@@ -50,11 +50,10 @@ public class Factory {
 
         House Myhouse=new House();
         Myhouse.printInfo();
-        House CustomHouse=new House(200.24551,12,"Ren");
+        House CustomHouse=new House(200.24551,12,"Ren", "70 randolph ave",false);
         CustomHouse.printInfo();
 
 
-//todo is to add more parameteres for the constructor method
 
 
 

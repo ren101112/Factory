@@ -17,10 +17,12 @@ public class House {
 
 
     }
-    public House(double psize, int pwalls, String powner){//your parameter can not have the same name of your parameter and your variabale
+    public House(double psize, int pwalls, String powner, String paddress,boolean pisOccupied){//your parameter can not have the same name of your parameter and your variabale
         size=psize;//this is the order that it needs to be put in CANNOT BE DIFFERENT
         walls=pwalls;
         owner=powner;
+        address=paddress;
+        isOccupied=pisOccupied;
 
 
     }
